@@ -24,6 +24,6 @@ public class ToyCat extends Cat {
     public void jump() {
         //do nothing
 
-        System.out.println("This cat does not jump!");
+        System.out.println("Этот кот может прыгать очень высоко");
     }
 }

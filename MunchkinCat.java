@@ -15,9 +15,16 @@ public class MunchkinCat extends Cat {
     }
 
     @Override
+    public void meow() {
+        //do nothing
+
+        System.out.println("This cat does not mew!");
+    }
+
+    @Override
     public void jump() {
         //jump implementation
 
-        System.out.println("How does this cat jump? - Jumps low");
+        System.out.println("этот кот не умеет прыгать");
     }
 }

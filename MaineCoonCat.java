@@ -12,5 +12,10 @@ public class MaineCoonCat extends Cat {
         //display implementation
 
         System.out.println("Maine coon cat is displayed, it is very big");
+
+    }
+
+    public void jump(){
+        System.out.println("Этот кот может прыгать, но очень низко");
     }
 }

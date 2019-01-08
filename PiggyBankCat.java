@@ -21,12 +21,6 @@ public class PiggyBankCat extends Cat {
         System.out.println("This cat does not purr!");
     }
 
-    @Override
-    public void meow() {
-        //do nothing
-
-        System.out.println("This cat does not mew!");
-    }
 
     @Override
     public void jump() {

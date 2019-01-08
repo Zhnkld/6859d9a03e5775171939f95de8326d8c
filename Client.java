@@ -1,5 +1,6 @@
 package object_oriented_programming;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -11,7 +12,10 @@ import java.util.List;
 public class Client {
 
     public static void main(String[] args) {
-        List<Cat> cats = new LinkedList<>();
+
+
+
+        ArrayList<Cat> cats = new ArrayList<>();
         cats.add(new MaineCoonCat());
         cats.add(new MunchkinCat());
         cats.add(new PiggyBankCat());
